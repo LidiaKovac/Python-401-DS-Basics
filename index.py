@@ -52,5 +52,7 @@ def calc_stndrd_dev (dataset):
     sqrd_mean = np.mean(squared_diff)
     return np.sqrt(sqrd_mean)
 
-print(calc_stndrd_dev(usOnly["min_salary"]))
-print(calc_stndrd_dev(usOnly["max_salary"]))
+#print(calc_stndrd_dev(usOnly["min_salary"]))
+#print(calc_stndrd_dev(usOnly["max_salary"]))
+
+
